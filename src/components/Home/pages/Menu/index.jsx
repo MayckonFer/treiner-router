@@ -3,10 +3,10 @@ import styles from './styles.module.scss';
 
 import { Link } from 'react-router-dom';
 
-import UserImage from '../../../assets/user.png';
-import Logo from '../../../assets/logo.svg';
-import IconHome from '../../../assets/home-white.svg';
-import IconCalendar from '../../../assets/calendar-purple.svg';
+import UserImage from '../../../../assets/user.png';
+import Logo from '../../../../assets/logo.svg';
+import IconHome from '../../../../assets/home-white.svg';
+import IconCalendar from '../../../../assets/calendar-purple.svg';
 
 export default function Menu() {
   return (

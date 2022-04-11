@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './styles.module.scss';
 
-import UserImage from '../../../assets/user.png';
-import CalendarPurple from '../../../assets/calendar-purple-light.svg';
+import UserImage from '../../../../assets/user.png';
+import CalendarPurple from '../../../../assets/calendar-purple-light.svg';
 
 export default function Performed() {
   return (

@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './styles.module.scss';
 
-import Menu from './Menu';
-import Query from './Query';
-import Birthday from './Birthday';
-import Performed from './Performed';
+import Menu from './pages/Menu';
+import Query from './pages/Query';
+import Birthday from './pages/Birthday';
+import Performed from './pages/Performed';
 
 export default function Home() {
   return (
