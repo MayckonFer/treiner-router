@@ -1,0 +1,34 @@
+.titleBirthday {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--gray-700);
+}
+
+.wrapperBirthday {
+  width: 270px;
+  height: 270px;
+  background-color: var(--white);
+  border-radius: 0.25rem;
+  padding: 0.85rem;
+  margin-top: 0.55rem;
+  overflow-y: auto;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+  .birthdayData {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.90rem;
+    font-weight: 400;
+    color: var(--gray-300);
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px solid var(--gray-300);
+
+    .birthdayName {
+      font-size: 0.90rem;
+      font-weight: 400;
+      color: var(--gray-700);
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.containerMain {
+  display: flex;
+
+  .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+
+    width: 100%;
+    background-color: var(--background);
+    padding: 2.5rem 1.2rem;
+  }
+}
